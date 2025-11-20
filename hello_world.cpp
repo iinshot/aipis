@@ -1,8 +1,8 @@
 #include <iostream>
 
-// Главная функция
+// main function
 int main(){
-    std :: string name; // Переменная для хранения имени
+    std :: string name; // for name
     // Запрашиваем ввод у пользователя
     std :: cout << "Enter your name" << std :: endl;
     // Ввод пользователя
