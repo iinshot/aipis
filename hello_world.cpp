@@ -1,16 +1,13 @@
 #include <iostream>
 
-// Главная функция
-int
-main()
+// main function
+int main()
 {
-  std ::string name; // Переменная для хранения имени
-  // Запрашиваем ввод у пользователя
+  std ::string name; // for name
   std ::cout << "Enter your name" << std ::endl;
-  // Ввод пользователя
+  // enter
   std ::cin >> name;
-  // Вывод приветственного сообщения
+  // print message
   std ::cout << "Hello World" << name << std ::endl;
-  // Программа завершена успешно
   return 0;
 }
